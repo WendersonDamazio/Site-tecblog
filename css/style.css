@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+#area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo, #area-menu{
+    padding: 10px;
+}
+a:link, a:visited{
+    color: #f7b600;
+}
+a:hover{
+    text-decoration: underline;
+}
+#area-menu a:link, #area-menu a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+#area-menu a:hover{
+    color: #f7b600;
+    background: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2{
+    color:#f7b600;
+}
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+.branco{
+    color: white;
+}
+.data-postagens{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+#area-principal{
+    width: 920px;
+    margin: 10px auto;
+    padding: 20px;
+}
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+.postagens{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.area-lateral{
+    width: 240px;
+    float: right;
+}
+#conteudo-lateral{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#rodape{
+    background: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc ;
+}
